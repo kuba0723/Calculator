@@ -1,0 +1,128 @@
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Calculator{
+    max-width: 400px;
+    width: 100%;
+    background-color: rgb(128, 128, 128);
+    padding: 10px;
+    
+}
+
+.CalcHeader{
+    height: 30px;
+    max-width: 400px;
+    width: 100%;
+    display:flex;
+    
+    justify-content: space-between;
+}
+
+#SolarPannel{
+    max-width: 100px;
+    width: 100%;
+    background-color: gold;
+    height: 30px;
+    display:flex;
+    justify-content: space-around;
+}
+
+#stripe{
+    background-color: orange;
+    max-width: 10px;
+    width: 100%;
+}
+
+#CalcScreen{
+    direction: rtl;
+    background-color: green;
+    overflow-wrap: break-word;
+    margin-bottom: 10px;
+}
+#smallNumber{
+    font-size:30px;
+    margin:10px;
+    margin-bottom: 0px;
+}
+#bigNumber{
+    font-size: 60px;
+    margin: 10px;
+    margin-top: 0px;
+}
+.button{
+    width: 25%;
+    height: 70px;
+    margin: 2px;
+    font-size: 25px;
+        width: 100%;
+}
+
+.specialcase{
+    display:flex;
+    
+    
+}
+.NormalButtons{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+
+}
+.specialbutton{
+    max-width: 96px;
+    width: 50px;
+    min-width: 10px;
+    height: 70px;
+    margin: 2px;
+    font-size: 25px;
+}
+#BTNequal{
+    height: 144px;
+    margin-top: 1px;
+    font-size: 25px;
+    max-width: 96px;
+    width: 100%;
+}
+#CalcLogo{
+    font-size: 30px;
+}
+.beepboop{
+    max-width: 100%;
+    width: 100%;
+}
+#BTN3{
+    max-width: 96px;
+    width: 100%;
+}
+#BTN2{
+    max-width: 96px;
+    width: 100%;
+}
+#BTN1{
+    max-width: 96px;
+    width: 100%;
+}
+#BTN0{
+    max-width: 96px;
+    width: 100%;
+}
+#BTNcomma{
+    max-width: 96px;
+    width: 100%;
+}
+#BTNdelete{
+    max-width: 96px;
+    width: 100%;
+}
+#bufor{
+    display:flex;
+    max-width: 1000px;
+    width: 100%;
+    flex-shrink:3;
+}
